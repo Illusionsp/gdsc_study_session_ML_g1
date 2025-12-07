@@ -1,7 +1,7 @@
 # House Price Prediction (Linear Regression)
 
 ## 📌 Project Overview
-This project involves building a **Linear Regression model** to predict house prices using the `Housing.csv` dataset. The goal is to analyze the relationship between property features (Area, Bedrooms, etc.) and the final selling price.
+This project involves building a **Linear Regression model** to predict house prices using the `Housing.csv` dataset. The analysis is performed in a **Jupyter Notebook**, allowing for step-by-step visualization of data, preprocessing, and model evaluation.
 
 ## 📂 Dataset
 The dataset contains 545 entries with the following key features:
@@ -10,10 +10,12 @@ The dataset contains 545 entries with the following key features:
 - **Categorical Variables:** Mainroad, Guestroom, Basement, Hotwaterheating, Airconditioning, Prefarea, Furnishingstatus.
 
 ## ⚙️ Methodology
+The notebook follows these steps:
 1. **Preprocessing:** - Binary mapping (Yes/No $\rightarrow$ 1/0)
    - One-Hot Encoding for `furnishingstatus`.
-2. **Model:** Linear Regression using Scikit-Learn.
-3. **Split:** 70% Training / 30% Testing.
+2. **Visualization:** Analyzing correlations (e.g., Price vs. Area).
+3. **Model:** Linear Regression using Scikit-Learn.
+4. **Split:** 70% Training / 30% Testing.
 
 ## 📊 Results & Evaluation
 The model was evaluated on the test set with the following performance metrics:
