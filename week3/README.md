@@ -45,4 +45,6 @@ The model is evaluated using industry-standard metrics:
 
 4. Visualization
 
-    Decision Boundary: A 2D contour plot is generated to visually demonstrate how the model separates "Benign" (Blue/Red zone) from "Malignant" (Green/Red zone) based on the two most significant features: Clump Thickness and Uniformity of Cell Size.
+   A 2D contour plot is generated to visualize the decision boundary of the logistic regression model using Clump Thickness and Uniformity of Cell Size as features.
+   The background color represents the model’s predicted class, where red regions indicate Benign tumors and green regions indicate Malignant tumors.
+   The boundary between the colored regions shows where the model transitions between the two predictions, while the scatter points represent the actual training samples.
